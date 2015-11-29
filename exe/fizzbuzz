@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+require_relative '../lib/fizzbuzz'
+
+limit = (ARGV.first || 100).to_i
+Fizzbuzz.new(limit).print
